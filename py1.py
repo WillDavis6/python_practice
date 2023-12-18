@@ -34,3 +34,12 @@ def divide(a,b):
     
 def three_things(a,b,c):
    print("hi")
+
+def send_email(to_email, from_email, subject, cc, bcc, bosy):
+   email="""
+    to: {to_email}
+    from
+"""
+
+def multiply(a,b):
+   return a * b
