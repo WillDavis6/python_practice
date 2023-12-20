@@ -23,6 +23,9 @@
 # for items in things:
 #     print(items)
 
+fruit = {"banana", "orange", "potatoe"}
+vegie = {"potatoe", "tomatoe"}
+
 def greet(person):
     return f"hellow there, {person}"
 
@@ -44,4 +47,3 @@ def send_email(to_email, from_email, subject, cc, bcc, bosy):
 def multiply(a,b):
    return a * b
 
-fruit = [0,2,3,4,5,6,7]
