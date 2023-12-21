@@ -47,3 +47,6 @@ def send_email(to_email, from_email, subject, cc, bcc, bosy):
 def multiply(a,b):
    return a * b
 
+
+def gen_board(size,inital_val=None):
+   return [[intial]]
