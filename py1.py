@@ -50,3 +50,7 @@ def multiply(a,b):
 
 def gen_board(size,inital_val=None):
    return [[intial]]
+
+names = ['charlie', 'lucie']
+
+name1, name2 = names
