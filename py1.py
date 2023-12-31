@@ -54,3 +54,11 @@ def gen_board(size,inital_val=None):
 names = ['charlie', 'lucie']
 
 name1, name2 = names
+
+def getd(person):
+   try:
+      print(3/person)
+   except TypeError:
+      print('Type error: try another entry')
+   except:
+      print('something else went wrong')
