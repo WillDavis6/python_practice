@@ -56,6 +56,11 @@ names = ['charlie', 'lucie']
 name1, name2 = names
 
 def getd(person):
+   '''
+   >>> getd(3)
+   0
+   
+   '''
    try:
       print(3/person)
    except TypeError:
