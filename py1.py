@@ -67,3 +67,17 @@ def getd(person):
       print('Type error: try another entry')
    except:
       print('something else went wrong')
+
+from math import sqrt
+class Triange:
+   def __init__(self,a,b):
+      self.a = a
+      self.b = b
+
+   @classmethod
+   def random(cls):
+      print(cls)
+
+
+   def get_hypot(self):
+      return sqrt(self.a ** 2 + self.b ** 2)
