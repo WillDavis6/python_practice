@@ -70,6 +70,9 @@ def getd(person):
 
 from math import sqrt
 class Triange:
+   '''
+   a class used to represent a triangle
+   '''
    def __init__(self,a,b):
       self.a = a
       self.b = b
