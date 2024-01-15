@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Document{% endblock %}</title>
+    <link ref ="stylesheet" href ="/static/styles.css">
 </head>
-<body action="trial">
+<body>
+    <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/part-search">part</a>
+        <a href="/generate-template">generated part template</a>
+    </nav>
     {% if lucky_num == 3 %}
     <h2> show change in html from conditional logic</h2>
     {% else %}
