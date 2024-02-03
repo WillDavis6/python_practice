@@ -3,6 +3,8 @@ from unittest import TestCase
 
 from app import app
 
+debug
+
 class AdditionTestCase(TestCase):
     """ examples of unittest case"""
 
