@@ -30,5 +30,12 @@ class ColorViewsTestCase(TestCase):
             self.assertEqual(res.status_code, 400)
             self
 
+    def test_submit_taxes(self):
+        with app.test_client as client:
+            res = client.post('/taxes', data={'income': '1000'})
+            html = res.get_data(as_text=True)
 
-
+            self.assertEqual(res.status_code, 200)
+            self.assertIn('<h3>You owe $150</h3>', html)
+    def test_calc_taxes(self):
+        self.assertEqual(calc_taxes(100), 15)
