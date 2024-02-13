@@ -17,7 +17,7 @@ function binarySearch(arr, target) {
         } else {
             return middleIdx
         }
-    return -1
+        return -1;
     }
     // const middleIdx = s(Math.floor(arr.length - 1) / 2)
     // if (arr[middleIdx] === target) {
